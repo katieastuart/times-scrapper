@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Archivo+Black');
+
+body { 
+    background-image: url("../images/chuttersnap-629001-unsplash-opaque.jpg");
+    background-repeat: no-repeat center bottom;
+    background-size: cover;
+}
+
+h1 {
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.jumbotron {
+    background: none;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+  background: rgba(240, 255, 255, 0.60);
+  padding: 10px;
+}
+
+#notes {
+  float: right;
+  width: 30%;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: rgb(198, 209, 211);
+}
+
+input {
+  height: 36px;
+  font-size: 24px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
